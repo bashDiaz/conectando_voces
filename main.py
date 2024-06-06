@@ -40,7 +40,7 @@ def main(page: ft.Page):
         expand = True)
     
 
-    path = os.getcwd() + '\\conectando_voces\\assets\\pictogramas'
+    path = os.getcwd() + '\\assets\\pictogramas'
     dir = os.listdir(path)
     for folder in dir:
         main_column.controls.append(ft.Text(folder, size=20, weight='bold', color='black'))
